@@ -36,5 +36,22 @@ def perfecto(numero):
     else:
         return False
 
-#fibonacci
+#ordenar lista
+def ordenada(lista)
+    n = len(lista)
+    for i in range(n):
+        Min = i
+        for j in range(i+1, n)
+            if lista[j] < lista[Min]:
+                Min = j
+        lista[i], lista[Min] = lista[Min], lista[i]
+    return lista
+  
+  #valor repetido
+  def repetido(lista, valor)
+    cont = lista.count(valor)
+    if cont > 1:
+        return True
+    else:
+        return False
     
