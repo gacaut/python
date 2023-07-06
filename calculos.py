@@ -31,10 +31,7 @@ def perfecto(numero):
     for i in range(1, numero):
         if numero % i == 0: #busco divisores
             SumaDivisores += i #los sumo
-    if SumaDivisores == numero:
-        return True
-    else:
-        return False
+    return SumaDivisores == numero
       
 """ORDEN DE LISTAS"""
       
